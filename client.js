@@ -2,7 +2,7 @@ const net = require("net");
 //connect to the server
 const connect = function () {
   const conn = net.createConnection({
-    host: "165.227.47.243",
+    host: "localhost",
     port: 50541
   });
 //translate the message
